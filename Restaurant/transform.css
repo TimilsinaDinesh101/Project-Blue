@@ -1,0 +1,51 @@
+h1{
+    padding: 100px;
+    margin: 400px;
+    border: 10px solid red;
+    
+    animation: abc 4s infinite;
+}
+
+@keyframes abc {
+    50%{
+        transform: rotateX(180deg);
+    }
+
+    50%{
+        transform: rotateY(180deg);
+    }
+    25%{border-color: brown;}
+    50%{border-color: blue;}
+    
+}
+
+h2{
+    padding: 100px;
+    margin: 400px;
+    border: 5px solid lime;
+    animation: xyz 10s infinite;
+}
+
+@keyframes xyz {
+    50%{
+        transform: skewX(180deg);
+    }
+    
+}
+
+h3{
+    padding: 100px;
+    margin: 400px;
+    border: 10px solid green;
+    animation: xyx 6s infinite;
+    
+}
+
+@keyframes xyx 
+{
+
+    25%{
+        transform: scale(1.5);
+    }
+    
+}

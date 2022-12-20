@@ -1,0 +1,12 @@
+.a:hover{
+    filter: grayscale(0.8);
+    
+}
+.b:hover{
+    
+  filter: opacity(0.9);
+}
+.c:hover{
+
+    filter:hue-rotate(180deg) ;
+}

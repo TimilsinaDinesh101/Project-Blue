@@ -1,0 +1,29 @@
+
+#a{
+    height: 300px;
+    width: 300px;
+    background-image: repeating-conic-gradient(blue 10deg,red 20deg,orange 30deg);
+    border: 1px;
+    border-radius: 50%;
+
+}
+
+#a:hover{
+    background-image: repeating-conic-gradient(pink 10deg,red 20deg,orange 30deg);
+    animation: abc 20s infinite;
+}
+
+@keyframes abc{
+    100%{
+        transform: rotate(360deg);}
+
+        50%{
+            background-image: repeating-radial-gradient(blue,orange,red);
+            }
+            100%{
+                background-image: repeating-linear-gradient(to top pink,yellow,red);
+            }
+        }
+
+
+
